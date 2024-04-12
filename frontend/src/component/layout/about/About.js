@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 import { Button } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import './About.css';
+import "./About.css";
 const About = () => {
   const visitInstagram = () => {
     window.location = "https://instagram.com";
@@ -17,7 +17,7 @@ const About = () => {
 
         <div>
           <div>
-            <Typography>Karan Bora</Typography>
+            <Typography>Raj Sarda</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
@@ -25,10 +25,7 @@ const About = () => {
           </div>
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
-            <a
-              href="https://www.youtube.com/"
-              target="blank"
-            >
+            <a href="https://www.youtube.com/" target="blank">
               <YouTubeIcon className="youtubeSvgIcon" />
             </a>
 
